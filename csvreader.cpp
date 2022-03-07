@@ -1,5 +1,6 @@
 #include "csvreader.h"
 
+#include "split.cpp"
 
 CSVReader::CSVReader(const QString& filename)
 {
