@@ -20,7 +20,6 @@ public:
     bool is_open() const {return fin.is_open(); };
 
     std::vector<Employe> readAll();
-    std::vector<std::string> split(const std::string& str, char delim);
 };
 
 #endif // CSVREADER_H
